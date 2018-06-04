@@ -11,10 +11,12 @@
 
 // 3. Base styles
 @import 'base/normalize';
+@import 'base/typography';
+@import 'base/base';
 
 
 // 4. Layout
-
+@import 'layout/hero';
 
 
 // 5. Components

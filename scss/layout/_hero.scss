@@ -1,0 +1,33 @@
+.hero {
+  background-image: url('/img/hero-image-01.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: $secondary;
+  opacity: 0.25;
+}
+
+.logo {
+  width: 25%;
+  max-width: 10rem;
+  padding-top: .5em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  /* display: none; */
+}

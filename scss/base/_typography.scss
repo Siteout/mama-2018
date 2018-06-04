@@ -1,0 +1,14 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 .75rem 0;
+}
+
+h1 {
+  font-family: $font-title;
+  font-weight: $font-normal;
+  line-height: 1.15;
+}
+
+.home-hero-title {
+  font-size: 1.5rem;
+  font-weight: $font-bold;
+}
