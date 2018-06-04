@@ -10,8 +10,8 @@
  */
 
  html {
-  @include font($font-extra-light);
-  line-height: 1.6; /* 1 */
+  @include font($font-light);
+  line-height: 1.4; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
